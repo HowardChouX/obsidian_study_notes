@@ -74,7 +74,7 @@ $ git push origin master
 - 现在在 GitHub.com 上刷新存储库的 URL。您应该会看到您对 Collatz.java 的更改以及您输入的消息现在可见。
 
 
-```
+```bash
 git add lab1/* //添加lab文件中所有文件
 git commit -m "提示信息"
 git push origin master
