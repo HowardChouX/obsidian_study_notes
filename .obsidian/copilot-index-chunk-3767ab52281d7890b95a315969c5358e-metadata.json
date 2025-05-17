@@ -1,0 +1,1 @@
+{"numPartitions":2,"vectorLength":"4096","schema":{"id":"string","title":"string","path":"string","content":"string","embedding":"vector[4096]","embeddingModel":"string","created_at":"number","ctime":"number","mtime":"number","tags":"string[]","extension":"string"},"lastModified":1747400403303,"documentPartitions":{}}

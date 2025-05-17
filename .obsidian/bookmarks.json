@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1746882298708,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1746882298708,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1746882298708,
+              "items": [
+                {
+                  "type": "group",
+                  "ctime": 1746882298708,
+                  "items": [],
+                  "title": "1.引入"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/2.定义类.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/3. 列表 引用 递归.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/4.SLLists(单向链表）.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/5. DLList（双向链表）.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/6. Arrays（数组）.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/7.AList（数组列表）.md",
+                  "subpath": "#^-"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1746882298708,
+                  "path": "CS61B/lecture_txt/9.继承I ：接口和实现继承.md",
+                  "subpath": "#^-"
+                }
+              ],
+              "title": "\\\\lecture_txt"
+            }
+          ],
+          "title": "CS61B"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "常用工具使用指南"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "算法"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "算法比赛"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "线性代数"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "c++"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "copilot-conversations"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "CS61A"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "cs106L"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "Letcode"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "linux"
+        },
+        {
+          "type": "group",
+          "ctime": 1747398310836,
+          "items": [],
+          "title": "PANG"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}

@@ -149,8 +149,12 @@ ssh -T git@github.com
 # 本地初始化仓库
 git init
 
+# add
+git add
+
 # commit
 git commit -m"<message>"
+
 # 关联githup
 git remote add origin git@github.com:jay-zsh/obsidian_study_notes.git
 
@@ -160,7 +164,7 @@ git remote -v
 # 强制指定分支
 git branch -M master #似乎默认就是master
 
-# 
+# 推送
 git push -u origin master
 
 

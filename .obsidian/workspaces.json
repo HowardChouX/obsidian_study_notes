@@ -1,0 +1,402 @@
+{
+  "workspaces": {
+    "default": {
+      "main": {
+        "id": "3ea1c756fc3c5659",
+        "type": "split",
+        "children": [
+          {
+            "id": "8d46e2384670d6bf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "77eff3a664f76fef",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新标签页"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "24d881a884301934",
+        "type": "split",
+        "children": [
+          {
+            "id": "63690245cfd50c55",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f751b8e449fb8e93",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byCreatedTime",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "2c340f2e4ad833d9",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "逻辑",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "a9bc68399165c673",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 247.5124969482422
+      },
+      "right": {
+        "id": "7df202f0f2720bd2",
+        "type": "split",
+        "children": [
+          {
+            "id": "f82d392d2d7e72a8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e38364b10a975895",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "大纲"
+                }
+              },
+              {
+                "id": "b12a4279472c4c25",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "Copilot"
+                }
+              },
+              {
+                "id": "0a99d327ded95032",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "出链"
+                }
+              },
+              {
+                "id": "452745476b636d97",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "25a5374d1e88a157",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 482.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "markdown-importer:打开 Markdown 格式转换器": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "switcher:打开快速切换": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "templater-obsidian:Templater": false,
+          "copilot:Open Copilot Chat": false,
+          "notion-like-tables:Create loom": false,
+          "excel:创建 Excel 文件": false,
+          "obsidian-temple:Temple": false,
+          "publish:发布更改": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+        }
+      },
+      "active": "b12a4279472c4c25",
+      "mtime": "2025-03-31T09:48:43+08:00"
+    },
+    "blue": {
+      "main": {
+        "id": "3ea1c756fc3c5659",
+        "type": "split",
+        "children": [
+          {
+            "id": "fa4ddfdda4a31e0f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ea9903a8e070530c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "12.3迭代"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "24d881a884301934",
+        "type": "split",
+        "children": [
+          {
+            "id": "63690245cfd50c55",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2c340f2e4ad833d9",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "2e308f26340b5fc6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {},
+                  "icon": "sheets-in-box",
+                  "title": "File Tree"
+                }
+              },
+              {
+                "id": "1c9e6e00f57b75d3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "a4c4986fb512bcb1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 247.5
+      },
+      "right": {
+        "id": "7df202f0f2720bd2",
+        "type": "split",
+        "children": [
+          {
+            "id": "f82d392d2d7e72a8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0103c045d870731f",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "Copilot"
+                }
+              },
+              {
+                "id": "28baa90d26e94ea9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "12.3迭代 的大纲"
+                }
+              },
+              {
+                "id": "7c3d09eedcb1e0af",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "12.3迭代 的反向链接列表"
+                }
+              },
+              {
+                "id": "cdf4572fc93444a7",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "12.3迭代 的出链列表"
+                }
+              },
+              {
+                "id": "95b810d6b5ad0fdd",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "fcaecf18723e904f",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 413.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "notion-like-tables:Create loom": false,
+          "obsidian-temple:Temple": false,
+          "copilot:Open Copilot Chat": false,
+          "custom-sort:Toggle custom sorting": false,
+          "file-tree-alternative:File Tree Alternative Plugin": false,
+          "graph:查看关系图谱": false,
+          "excel:创建 Excel 文件": false,
+          "templater-obsidian:Templater": false,
+          "switcher:打开快速切换": false,
+          "random-note:开始漫游笔记": false,
+          "canvas:新建白板": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "0103c045d870731f",
+      "mtime": "2025-05-16T18:22:47+08:00"
+    }
+  },
+  "active": "blue"
+}

@@ -1,0 +1,307 @@
+{
+  "isPlusUser": false,
+  "plusLicenseKey": "sk-tutagnrrgygeorobgnnelrxztfsfloaowyxveapmcmusjtse",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "ep-20250313080651-sg9dw|3rd party (openai-format)",
+  "embeddingModelKey": "ep-20250313081124-sr8ld|3rd party (openai-format)",
+  "temperature": 2,
+  "maxTokens": 16000,
+  "contextTurns": 50,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "openAIEmbeddingProxyBaseUrl": "",
+  "stream": true,
+  "defaultSaveFolder": "copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": false,
+  "defaultOpenArea": "editor",
+  "customPromptsFolder": "copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON STARTUP",
+  "qaExclusions": "",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "enableIndexSync": true,
+  "debug": true,
+  "enableEncryption": false,
+  "maxSourceChunks": 125,
+  "groqApiKey": "",
+  "mistralApiKey": "",
+  "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "plusExclusive": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4.1-nano",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4o",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "enableCors": false
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-tutagnrrgygeorobgnnelrxztfsfloaowyxveapmcmusjtse",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "enableCors": true,
+      "displayName": "DeepSeek-R1-Distill-Qwen-32B"
+    },
+    {
+      "name": "ep-20250313080651-sg9dw",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+      "apiKey": "aadb20f8-a4a4-4ba9-854d-4c68db04ad71",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "Deepseek_R1",
+      "enableCors": true
+    }
+  ],
+  "activeEmbeddingModels": [
+    {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "believerExclusive": true,
+      "dimensions": 1024
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "dimensions": 512
+    },
+    {
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "enableCors": false
+    },
+    {
+      "name": "Pro/BAAI/bge-m3",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-tutagnrrgygeorobgnnelrxztfsfloaowyxveapmcmusjtse",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "enableCors": true
+    },
+    {
+      "name": "ep-20250313081124-sr8ld",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+      "apiKey": "aadb20f8-a4a4-4ba9-854d-4c68db04ad71",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "Deepseek-RAG",
+      "enableCors": true
+    }
+  ],
+  "embeddingRequestsPerMin": 300,
+  "embeddingBatchSize": 127,
+  "disableIndexOnMobile": true,
+  "showSuggestedPrompts": false,
+  "showRelevantNotes": true,
+  "numPartitions": 2,
+  "promptUsageTimestamps": {},
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [
+    {
+      "name": "Fix grammar and spelling",
+      "prompt": "<instruction>Fix the grammar and spelling of the text below. Preserve all formatting, line breaks, and special characters. Do not add or remove any content. Return only the corrected text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Translate to Chinese",
+      "prompt": "<instruction>Translate the text below into Chinese:\n    1. Preserve the meaning and tone\n    2. Maintain appropriate cultural context\n    3. Keep formatting and structure\n    Return only the translated text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Summarize",
+      "prompt": "<instruction>Create a bullet-point summary of the text below. Each bullet point should capture a key point. Return only the bullet-point summary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Simplify",
+      "prompt": "<instruction>Simplify the text below to a 6th-grade reading level (ages 11-12). Use simple sentences, common words, and clear explanations. Maintain the original key concepts. Return only the simplified text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Emojify",
+      "prompt": "<instruction>Add relevant emojis to enhance the text below. Follow these rules:\n    1. Insert emojis at natural breaks in the text\n    2. Never place two emojis next to each other\n    3. Keep all original text unchanged\n    4. Choose emojis that match the context and tone\n    Return only the emojified text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Make shorter",
+      "prompt": "<instruction>Reduce the text below to half its length while preserving these elements:\n    1. Main ideas and key points\n    2. Essential details\n    3. Original tone and style\n    Return only the shortened text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Make longer",
+      "prompt": "<instruction>Expand the text below to twice its length by:\n    1. Adding relevant details and examples\n    2. Elaborating on key points\n    3. Maintaining the original tone and style\n    Return only the expanded text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Generate table of contents",
+      "prompt": "<instruction>Generate a hierarchical table of contents for the text below. Use appropriate heading levels (H1, H2, H3, etc.). Include page numbers if present. Return only the table of contents.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Generate glossary",
+      "prompt": "<instruction>Create a glossary of important terms, concepts, and phrases from the text below. Format each entry as \"Term: Definition\". Sort entries alphabetically. Return only the glossary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Remove URLs",
+      "prompt": "<instruction>Remove all URLs from the text below. Preserve all other content and formatting. URLs may be in various formats (http, https, www). Return only the text with URLs removed.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Rewrite as tweet",
+      "prompt": "<instruction>Rewrite the text below as a single tweet with these requirements:\n    1. Maximum 280 characters\n    2. Use concise, impactful language\n    3. Maintain the core message\n    Return only the tweet text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Rewrite as tweet thread",
+      "prompt": "<instruction>Convert the text below into a Twitter thread following these rules:\n    1. Each tweet must be under 240 characters\n    2. Start with \"THREAD START\" on its own line\n    3. Separate tweets with \"\n\n---\n\n\"\n    4. End with \"THREAD END\" on its own line\n    5. Make content engaging and clear\n    Return only the formatted thread.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Explain like I am 5",
+      "prompt": "<instruction>Explain the text below in simple terms that a 5-year-old would understand:\n    1. Use basic vocabulary\n    2. Include simple analogies\n    3. Break down complex concepts\n    Return only the simplified explanation.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Rewrite as press release",
+      "prompt": "<instruction>Transform the text below into a professional press release:\n    1. Use formal, journalistic style\n    2. Include headline and dateline\n    3. Follow inverted pyramid structure\n    Return only the press release format.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    }
+  ],
+  "userId": "5ab65015-19ec-4942-8c52-06cb8aa20747",
+  "passMarkdownImages": true,
+  "enableCustomPromptTemplating": true
+}
