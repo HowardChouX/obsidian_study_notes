@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用工具使用指南/git的使用.md",
+                "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git的使用"
+              "title": "12.5"
             }
           }
         ]
@@ -222,8 +222,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1c9e6e00f57b75d3",
+  "active": "ea9903a8e070530c",
   "lastOpenFiles": [
+    "常用工具使用指南/git的使用.md",
     "CS61B/Spring21_HW/Lab/lab04.md",
     "CS61B/Spring21_HW/Lab/lab03.md",
     "CS61B/Spring21_HW/Lab/lab02.md",
@@ -256,7 +257,6 @@
     "CS61B/lecture_txt/1.引入/1.1HelloWorld.md",
     "CS61B/lecture_txt/9.继承I ：接口和实现继承.md",
     "CS61B/lecture_txt/7.AList（数组列表）.md",
-    "CS61B/lecture_txt/6. Arrays（数组）.md",
     "CS61B/lecture_txt/1.引入",
     "CS61B/lecture_txt",
     "CS61B",
