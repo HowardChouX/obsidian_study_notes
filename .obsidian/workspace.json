@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用工具使用指南/git的使用.md",
+                "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git的使用"
+              "title": "12.5"
             }
           }
         ]
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -224,9 +224,10 @@
   },
   "active": "ea9903a8e070530c",
   "lastOpenFiles": [
+    "常用工具使用指南/git的使用.md",
+    "CS61B/README.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
-    "CS61B/README.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.2异常（Exceptions）.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.1Arrayset.md",
@@ -249,7 +250,6 @@
     "CS61B/lecture_txt/1.引入/1.3 feature.md",
     "CS61B/lecture_txt/2.定义类.md",
     "CS61B/lecture_txt/1.引入/1.2工作流程.md",
-    "CS61B/lecture_txt/1.引入/1.1HelloWorld.md",
     "CS61B/lecture_txt 1/1.引入",
     "CS61B/lecture_txt 1",
     "Archive/CS61B",

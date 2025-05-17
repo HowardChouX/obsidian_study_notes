@@ -1,6 +1,6 @@
 {
   "remoteURL": "git@github.com:jay-zsh/obsidian_study_notes.git",
-  "gitLocation": "G:\\Git\\bin\\git.exe",
+  "gitLocation": "",
   "syncinterval": 15,
   "isSyncOnLoad": true,
   "checkStatusOnLoad": true
