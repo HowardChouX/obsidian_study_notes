@@ -150,7 +150,7 @@ ssh -T git@github.com
 git init
 
 # add
-git add
+git add <file>
 
 # commit
 git commit -m"<message>"
