@@ -1,0 +1,54 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "editor:open-search",
+      "icon": "lucide-search",
+      "name": "find",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:export-pdf",
+      "icon": "lucide-arrow-down-circle",
+      "name": "导出为 PDF",
+      "mode": "any"
+    },
+    {
+      "id": "theme:use-dark",
+      "icon": "lucide-alarm-check",
+      "name": "使用深色模式",
+      "mode": "any"
+    },
+    {
+      "id": "theme:use-light",
+      "icon": "lucide-alarm-clock-off",
+      "name": "使用浅色模式",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "3ea1c756fc3c5659",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e4361b480008cd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e75f1759c2c3de75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown语法/初级语法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "初级语法"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "24d881a884301934",
+    "type": "split",
+    "children": [
+      {
+        "id": "63690245cfd50c55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f751b8e449fb8e93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2c340f2e4ad833d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "四舍五入",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a9bc68399165c673",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 247.5124969482422
+  },
+  "right": {
+    "id": "7df202f0f2720bd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f82d392d2d7e72a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e38364b10a975895",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "蓝桥杯/蓝桥杯考纲范围.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "蓝桥杯考纲范围 的大纲"
+            }
+          },
+          {
+            "id": "b12a4279472c4c25",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "0a99d327ded95032",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "处理数据/算数运算符.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "算数运算符 的出链列表"
+            }
+          },
+          {
+            "id": "452745476b636d97",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "25a5374d1e88a157",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 512.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false,
+      "notion-like-tables:Create loom": false,
+      "excel:创建 Excel 文件": false,
+      "obsidian-temple:Temple": false,
+      "publish:发布更改": false
+    }
+  },
+  "active": "e75f1759c2c3de75",
+  "lastOpenFiles": [
+    "蓝桥杯/蓝桥杯考纲范围.md",
+    "copilot-conversations/还可以使用么@20250414_090847.md",
+    "蓝桥杯/算法/欧几里得算法(辗转相除法）.md",
+    "蓝桥杯/算法/质数判断（6k+-1算法）.md",
+    "蓝桥杯/字符串/char.md",
+    "蓝桥杯/字符串/string类.md",
+    "蓝桥杯/排序/排序.md",
+    "蓝桥杯/字符串",
+    "蓝桥杯/未命名.md",
+    "蓝桥杯/算法/排序.md",
+    "蓝桥杯/排序",
+    "复合类型/数组.md",
+    "蓝桥杯/数学/初等数论.md",
+    "蓝桥杯/数学/三阶斐波那契数列(Triboncci数列）.md",
+    "蓝桥杯/算法/高精度.md",
+    "蓝桥杯/算法/动态规划.md",
+    "处理数据/算数类型.md",
+    "处理数据/算数运算符.md",
+    "处理数据/const限定符.md",
+    "蓝桥杯/蓝桥杯dev 5.11c++配置/2025蓝桥杯.md",
+    "Pasted image 20250401172455.png",
+    "copilot-conversations/开关灯_#include_bitsstdc++.h_万能头文件_#define_endl_'n'_将endl转为'n'避免使用endl降低速度@20250407_114741.md",
+    "2025-03-31（入党积极分子候选人）.md",
+    "copilot-conversations",
+    "复合类型/结构体.md",
+    "markdown语法/初级语法.md",
+    "蓝桥杯/算法/枚举（暴力枚举（BF）和穷举算法（ES)）.md",
+    "蓝桥杯/蓝桥杯dev 5.11c++配置",
+    "蓝桥杯/算法/贪心算法.md",
+    "copilot-conversations/1的次数（sum1)_#include_iostream_using_namespace_std;_int_one_sum1(int_n)@20250404_181616.md",
+    "蓝桥杯/算法",
+    "处理数据/浮点数的输出与四舍五入.md",
+    "错误案例",
+    "蓝桥杯/算法/STL算法",
+    "蓝桥杯/数学",
+    "Untitled 1.loom",
+    "Untitled.loom",
+    "Pasted image 20250331092455.png",
+    "Pasted image 20250328153323.png",
+    "Pasted image 20250328152811.png",
+    "Pasted image 20250328144937.png",
+    "Pasted image 20250324104232.png",
+    "Pasted image 20250319151926.png",
+    "Pasted image 20250324093435.png",
+    "Pasted image 20250324093750.png",
+    "Pasted image 20250324094125.png",
+    "未命名.canvas"
+  ]
+}
