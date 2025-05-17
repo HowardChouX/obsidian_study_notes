@@ -219,11 +219,14 @@
       "custom-sort:Toggle custom sorting": false,
       "excel:创建 Excel 文件": false,
       "templater-obsidian:Templater": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
   "active": "ea9903a8e070530c",
   "lastOpenFiles": [
+    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
+    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
     "常用工具使用指南/git的使用.md",
     "CS61B/Spring21_HW/Lab/lab04.md",
     "CS61B/Spring21_HW/Lab/lab03.md",
@@ -235,8 +238,6 @@
     "CS61B/Spring21_HW/junit.md",
     "CS61B/Spring21_HW/HW",
     "CS61B/Spring21_HW",
-    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
-    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.3迭代.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.2异常（Exceptions）.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.1Arrayset.md",
