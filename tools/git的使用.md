@@ -177,3 +177,46 @@ git commit -m "恢复至def5678版本"
 
 
 
+## error_log
+
+### 双向分歧
+>本地分支和远程分支各包含对方没有的提交
+![[Pasted image 20250519165802.png]]
+
+->解决方案：
+```bash
+# 将远程仓库拉取到本地
+git pull origin master
+```
+- 无冲突
+```bash
+# 若无冲突，会有合并提交提示,直接push
+git push origin master
+
+```
+- 有冲突
+```bash
+# 若有冲突（常见于双方修改了同一文件）
+	# 1手动编辑冲突文件（查找 `<<<<<<< HEAD` 和 `>>>>>>>` 标记）。
+	# 2确认最终代码后标记冲突已解决
+git add .
+git commit -m "merge origin/master and resolve conflicts"
+	# 3push
+git push origin master
+
+```
+
+
+---
+
+### 无共同祖先节点
+
+>Git 检测到本地仓库和远程仓库的提交历史**完全独立**​（无共同祖先节点），出于安全考虑，默认禁止合并不相关的代码历史（防止误操作覆盖代码）。
+![[Pasted image 20250519165128.png]]
+
+解决方案：
+
+```bash
+# 强制允许独立历史版本融合
+git pull origin master --allow-unrelated-histories
+```
