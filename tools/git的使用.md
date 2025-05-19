@@ -5,6 +5,9 @@
 # 本地初始化仓库
 git init
 
+# 生成 .gitignore文件，vim编辑
+touch .gitignore
+
 # add
 git add <file>
 
