@@ -113,16 +113,18 @@ public class CS61B {
 #### **4. 示例与提示**
 
 - **示例 1**：
-    
-    ```java
+
+
+```java
     CS61BStudent[] signups = new CS61BStudent[] {
-     
         new CS61BStudent(101), new CS61BStudent(102), new CS61BStudent(103) 
-        };
-    CS61B course = new CS61B(2, signups, "Fall 2023");
+    };
+    CS61B course = new CS61B(2, signups, "spring 2024");
     course.expand(3); // 扩容后 students 包含 101, 102, 103
-    ```
-    
+```
+
+
+
 - **关键提示**：
     
     - 使用 `System.arraycopy()` 高效复制数组
