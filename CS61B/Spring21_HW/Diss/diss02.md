@@ -92,7 +92,9 @@ public class DLLStringNode {
     
     public DLLStringNode(DLLStringNode prev, String s, DLLStringNode next) { 
         /* 构造函数 */ 
-        this.prev 
+        this.prev = prev;
+        this.s = s;
+        this.next = next;
     }
 
     public static void main(String[] args) {
