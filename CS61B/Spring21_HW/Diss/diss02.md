@@ -90,7 +90,10 @@ public class DLLStringNode {
     String s;
     DLLStringNode next;
     
-    public DLLStringNode(DLLStringNode prev, String s, DLLStringNode next) { /* 构造函数 */ }
+    public DLLStringNode(DLLStringNode prev, String s, DLLStringNode next) { 
+        /* 构造函数 */ 
+        this.prev 
+    }
 
     public static void main(String[] args) {
         DLLStringNode L = new DLLStringNode(null, "eat", null);
