@@ -14,3 +14,5 @@ ip link set ens33 up
 dhcpcd
 ```
 
+## 文件管理器
+[[ranger]]
