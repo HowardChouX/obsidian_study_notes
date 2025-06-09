@@ -220,3 +220,99 @@ git push origin master
 # 强制允许独立历史版本融合
 git pull origin master --allow-unrelated-histories
 ```
+
+
+## 分支冲突案例分析
+你的问题描述了一个典型的 Git 分支冲突场景，以下是完整的解决方案：
+
+### 当前问题分析
+1. 你的本地 `master` 分支和远程 `origin/master` 分支出现了分叉（divergent）
+2. 尝试用 `git pull --rebase` 时出现冲突（`sqrt.py` 文件）
+3. 直接使用 `git pull --merge` 语法错误（正确应该是 `git pull` 不加 `--merge`）
+
+### 正确解决步骤
+
+#### 方法1：使用 rebase 方式（推荐保持线性历史）
+```bash
+# 1. 先暂存所有本地修改（如果有未提交的更改）
+git stash
+
+# 2. 执行带rebase的pull
+git pull --rebase origin master
+
+# 3. 如果出现冲突（如你的情况）：
+#    - 用编辑器手动解决冲突文件（如lecture_code/sqrt.py）
+#    - 标记冲突已解决
+git add lecture_code/sqrt.py
+
+# 4. 继续rebase
+git rebase --continue
+
+# 5. 如果之前有stash，恢复修改
+git stash pop
+
+# 6. 最后推送
+git push origin master
+```
+
+#### 方法2：使用 merge 方式（保留合并提交）
+```bash
+# 1. 先提交本地所有修改
+git add .
+git commit -m "我的本地修改"
+
+# 2. 执行pull（默认使用merge）
+git pull origin master
+
+# 3. 解决可能出现的冲突
+#    - 编辑冲突文件
+#    - 标记已解决
+git add lecture_code/sqrt.py
+git commit
+
+# 4. 推送
+git push origin master
+```
+
+#### 方法3：强制覆盖本地（慎用！会丢失本地修改）
+```bash
+# 放弃所有本地修改，完全使用远程版本
+git fetch origin
+git reset --hard origin/master
+```
+
+### 关键命令说明
+
+| 命令 | 作用 |
+|------|------|
+| `git pull --rebase` | 把本地提交变基到远程分支之后 |
+| `git rebase --continue` | 解决冲突后继续rebase |
+| `git mergetool` | 使用图形化工具解决冲突 |
+| `git status` | 查看当前冲突状态 |
+
+### 如何避免未来冲突
+1. 在修改代码前总是先 `git pull`
+2. 使用功能分支而非直接修改master：
+   ```bash
+   git checkout -b my-feature
+   # 修改代码...
+   git push origin my-feature
+   # 然后在GitHub创建PR合并
+   ```
+3. 设置默认pull行为：
+   ```bash
+   git config --global pull.rebase true  # 推荐
+   ```
+
+### 冲突文件示例
+当你打开 `sqrt.py` 时，会看到类似：
+```python
+<<<<<<< HEAD
+# 你的本地修改
+=======
+# 远程修改
+>>>>>>> d41c277...
+```
+手动选择保留哪部分内容，或合并两者，然后删除标记符号。
+
+选择哪种方法取决于你是否需要保留完整的合并历史。对于个人项目，推荐使用 `rebase` 保持历史线性整洁。
