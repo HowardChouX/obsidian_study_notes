@@ -2,7 +2,7 @@
 
 ### 系统更新
 ```zsh
-sudo pacmank -Syu
+sudo pacman -Syu
 ```
 
 ### 连接网络
