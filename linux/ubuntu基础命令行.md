@@ -104,3 +104,4 @@
 - oh my zsh /home/zsh/.zshrc.
 
 - zsh   /usr/bin/zsh
+
