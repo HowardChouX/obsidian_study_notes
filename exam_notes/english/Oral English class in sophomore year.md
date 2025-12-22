@@ -6,7 +6,7 @@ My ideal job is to be a software engineer. The main reason is that I enjoy solvi
 你理想的工作是什么？为什么想申请这份工作？我理想的工作是成为一名软件工程师。主要原因是我喜欢用技术解决问题。在这份工作中，我可以创造有用的程序和应用程序，帮助人们的日常生活。此外，科技行业一直在变化，这意味着我将有很多机会学习新事物并在职业生涯中成长。最后，作为一名计算机科学专业的学生，这份工作完全符合我的技能和兴趣，让我能够运用在大学学到的知识。
 
 **2. How to become the perfect candidate for your ideal job?**
-To become the perfect candidate for a software engineering job, I need to work on both technical and soft skills. First, I should master programming languages like Python and Java, and build a portfolio of projects to show my ability. Second, it is important to develop soft skills, such as teamwork and communication, because engineers often work in groups. Finally, I can gain experience through internships or online courses. This combination of skills and experience will make me a strong candidate.
+To become the perfect candidate for a software engineering job, I need to work on both technical and soft skills. First, I should master programming languages like Python and Java, and build a set of projects to show my ability. Second, it is important to develop soft skills, such as teamwork and communication, because engineers often work in groups. Finally, I can gain experience through internships or online courses. This combination of skills and experience will make me a strong candidate.
 如何成为你理想工作的完美候选人？
 要成为一名软件工程师职位的完美候选人，我需要同时提升技术技能和软技能。首先，我应该掌握像Python和Java这样的编程语言，并建立一个项目组合来展示我的能力。其次，培养软技能很重要，比如团队合作和沟通能力，因为工程师经常需要团队协作。最后，我可以通过实习或在线课程来积累经验。这种技能与经验的结合将使我成为一个强有力的候选人。
 
