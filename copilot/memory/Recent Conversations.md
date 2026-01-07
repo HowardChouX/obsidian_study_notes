@@ -85,3 +85,7 @@
 ## Analysis of let in repeatedly-cube function
 **Time:** 2025-12-24 10:27
 **Summary:** The user asks about the role of the `let` expression in the `repeatedly-cube` Scheme function. The AI explains that `let` binds the recursive call result to a local variable `y`, preventing redundant computations and improving efficiency. Key conclusions are that `let` optimizes performance and enhances code clarity.
+
+## 图论核心概念与算法解析：存储结构、遍历及生成树
+**Time:** 2026-01-07 23:39
+**Summary:** 对话围绕图论展开，讨论了无向图与有向图的连通性（如弱连通、强连通）、邻接表及其变体（逆邻接表、邻接多重表、十字链表）的存储逻辑，深度优先搜索（DFS）与广度优先搜索（BFS）的遍历过程，最小生成树（Prim、Kruskal）的贪心策略，以及边节点和重连通分量的定义与应用，帮助理解图的结构与算法实现。
