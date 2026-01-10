@@ -89,3 +89,7 @@
 ## 图论核心概念与算法解析：存储结构、遍历及生成树
 **Time:** 2026-01-07 23:39
 **Summary:** 对话围绕图论展开，讨论了无向图与有向图的连通性（如弱连通、强连通）、邻接表及其变体（逆邻接表、邻接多重表、十字链表）的存储逻辑，深度优先搜索（DFS）与广度优先搜索（BFS）的遍历过程，最小生成树（Prim、Kruskal）的贪心策略，以及边节点和重连通分量的定义与应用，帮助理解图的结构与算法实现。
+
+## Request for Expanded English Summaries with Chinese Titles
+**Time:** 2026-01-09 20:05
+**Summary:** The user requested expanded English summaries of various texts (academic abstracts, a business email) while keeping vocabulary simple. The AI provided the full set of 10 expanded summaries. The user then asked to retain the original Chinese titles, which the AI included in the final response.
