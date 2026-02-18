@@ -4,3 +4,9 @@
 /deep_learning_pdf/
 /copilot/
 /deep learning/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env
